@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "蔡獻葵",
+    "label": "Full Stack Web Developer",
+    "picture": "https://en.gravatar.com/userimage/181735309/b1233522a9a954d000190147a5ef05b2.jpg?size=300",
+    "email": "veritymissed@gmail.com",
+    "phone": "+886-983-216-098",
+    "website": "https://blog.ckwang.net",
+    "summary": "全端開發，目前專注於 JS backend development/Node.js/React.js 及 DevOps。",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "新北市",
+      "countryCode": "",
+      "region": "台灣"
+    },
+    "profiles": [
+      {
+        "network": "facebook",
+        "username": "veritymissed",
+        "url": "https://facebook.com/veritymissed"
+      },
+      {
+        "network": "linkedin",
+        "username": "verity",
+        "url": "https://www.linkedin.com/in/verity-tsai-79392b98/"
+      },
+      {
+        "network": "gitHub",
+        "username": "veritymissed",
+        "url": "https://github.com/veritymissed"
+      },
+      {
+        "network": "slideshare",
+        "username": "veritymissed",
+        "url": "https://www.slideshare.net/veritymissed"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "潮網科技股份有限公司",
+      "position": "全端工程師",
+      "website": "https://www.wavenet.com.tw",
+      "startDate": "2019-05-03",
+      "summary": "領導軟體專案開發，為團隊成員提供技術指導與解決方案。與軟體工程師和產品經理密切合作，規劃軟體人員與產品開發",
+      "highlights": [
+        "領導研發團隊成員，設計和開發公司內部的廣告報表系統，以改善媒體團隊的工作流程並大幅提高生產力",
+        "為需要快速周轉和透明的專案引入了敏捷軟體開發方法",
+        "主導數個軟體專案並設計與實作一套自動化持續整合與持續交付的流程"
+      ]
+    },
+    {
+      "company": "悠福科技股份有限公司",
+      "position": "全端工程師",
+      "website": "https://www.wavenet.com.tw",
+      "startDate": "2017-09-04",
+      "endDate": "2019-05-02",
+      "summary": "軟體專案負責人，主要著重前後端功能開發。RTB數位廣告平台之系統設計，開發與維護。",
+      "highlights": [
+        "",
+        "開發廣告代理商交易平台，整合 Facebook Ads、Google Ads 和 Punwave DSP，以動態分配預算來投放廣告",
+        "開發廣告優化系統，即時監控跨媒體廣告成效、執行動態預算分配",
+        "實作廣告追蹤碼，以追蹤和找到適當的再行銷廣告活動的目標受眾"
+      ]
+    },
+    {
+      "company": "花蓮縣消防局第二大隊壽豐分隊",
+      "position": "消防替代役EMT",
+      "startDate": "2016-08-25",
+      "endDate": "2017-08-25",
+      "summary": "緊急救護、救災救助、為民服務等",
+      "highlights": []
+    },
+    {
+      "company": "國立臺灣大學資訊管理系",
+      "position": "台大藝術季專案負責人",
+      "startDate": "2015-10-25",
+      "endDate": "2016-06-01",
+      "summary": "Neural Art 藝術創作專案「交疊時間」負責人。使用當年的熱門的Neural Art library，揀選各種人權與抗暴歷史紀錄影像、近代與現代的藝術作品，融合近代畫風與當代攝影作品產生新的Neural Art影像創作",
+      "highlights": [
+        "使用當年的熱門的Neural Art library",
+        "結合各種人權與抗暴歷史紀錄影像與近代與現代的藝術作品",
+        "融合近代畫風與當代攝影作品產生新的Neural Art影像創作"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立臺灣大學",
+      "area": "資訊管理, 科技管理",
+      "studyType": "學士",
+      "startDate": "2012-09-01",
+      "endDate": "2016-06-30"
+    }
+  ],
+  "awards": [
+
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "familiar",
+      "keywords": [
+        "JavaScript",
+        "Python",
+        "R",
+        "C/C++",
+        "Shell"
+      ]
+    },
+    {
+      "name": "Platform",
+      "level": "familiar",
+      "keywords": [
+        "Windows",
+        "Linux/Unix",
+        "Mac OS X"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "familiar",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "MSSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "familiar",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript/jQuery",
+        "React/Redux",
+        "AngularJS",
+        "Bootstrap/Materail UI"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "familiar",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "Koa",
+        "Egg.js",
+        "RESTful design"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "familiar",
+      "keywords": [
+        "HAProxy",
+        "Docker",
+        "Traefik"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "familiar"
+    }
+  ]
+}

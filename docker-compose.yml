@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  site:
+    build: ./
+    restart: always
+    networks:
+      - web
+    environment:
+      - APP_HOST=${APP_HOST}
+      - APP_PORT=${APP_PORT}
+    labels:
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+      - "traefik.basic.frontend.rule=Host:${APP_HOST}"
+      - "traefik.basic.port=8080"
+      - "traefik.basic.protocol=http"
+
+networks:
+  web:
+    external: true
