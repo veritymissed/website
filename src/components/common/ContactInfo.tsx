@@ -44,6 +44,7 @@ const useStyles = makeStyles((theme: Theme) =>
 function ContactInfo() {
   const classes = useStyles();
   const resume = useResume()
+  const blog = resume.basics.website;
   const email = resume.basics.email;
   const phone = resume.basics.phone;
   const city = resume.basics.location.city;
@@ -57,6 +58,14 @@ function ContactInfo() {
         </Grid>
         <Grid className={classes.profileListItemValue} item xs={12} md={9}>
           {city}, {region}
+        </Grid>
+      </Grid>
+      <Grid container item direction="row" alignContent="center" justify="center" spacing={3}>
+        <Grid className={classes.profileListItem} item xs={12} md={3}>
+          Blog:
+        </Grid>
+        <Grid className={classes.profileListItemValue} item xs={12} md={9}>
+          <a target='_blank' className={classes.profileValueAItemValue} href={blog}>{blog}</a>
         </Grid>
       </Grid>
       <Grid container item direction="row" alignContent="center" justify="center" spacing={3}>

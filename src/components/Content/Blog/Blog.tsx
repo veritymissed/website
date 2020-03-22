@@ -9,8 +9,23 @@ import { getArticles } from '../../../services/article';
 
 function Blogs() {
   const { t } = useTranslation();
-  const { data: posts } = useAsync({ promiseFn: getArticles });
+  // const { data: posts } = useAsync({ promiseFn: getArticles });
+  // console.log("posts", posts);
 
+  var posts = [{
+    title: "Express server設定SSL，使用https建立安全連線",
+    slug: "ExpressSslHttps",
+    date: "2019-06-17T04:02:48.000Z",
+    updated: "2019-6-17T12:34:49.271Z",
+    comments: true,
+    path: "api/articles/setting-up-drone-for-gitlab-integration.json",
+    excerpt: null,
+    keywords: null,
+    cover: "https://user-images.githubusercontent.com/6461602/77222797-9dcb5580-6b91-11ea-833b-43a76b934892.png",
+    content: null,
+    raw: null,
+    url: "https://blog.verityfolio.site/2019/06/17/ExpressSslHttps/"
+  }]
   return posts ? (
     <Grid id="articles" container alignContent="stretch" direction="column" justify="center" spacing={0}>
       <SectionTitle title={t('content.blog')} />
