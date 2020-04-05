@@ -18,13 +18,26 @@ function Blogs() {
     date: "2019-06-17T04:02:48.000Z",
     updated: "2019-6-17T12:34:49.271Z",
     comments: true,
-    path: "api/articles/setting-up-drone-for-gitlab-integration.json",
+    path: "",
     excerpt: null,
     keywords: null,
     cover: "https://user-images.githubusercontent.com/6461602/77222797-9dcb5580-6b91-11ea-833b-43a76b934892.png",
     content: null,
     raw: null,
     url: "https://blog.verityfolio.site/2019/06/17/ExpressSslHttps/"
+  }, {
+    title: "Oauth 2.0 筆記（一），流程與名詞解釋",
+    slug: "Oauth2-1",
+    date: "2019-02-25T04:02:48.000Z",
+    updated: "2019-03-10T12:34:49.271Z",
+    comments: true,
+    path: "api/articles/setting-up-drone-for-gitlab-integration.json",
+    excerpt: null,
+    keywords: null,
+    cover: "https://blog.verityfolio.site/2020/02/25/Oauth2/Oauth_flow_ex.jpeg",
+    content: null,
+    raw: null,
+    url: "https://blog.verityfolio.site/2020/02/25/Oauth2/"
   }]
   return posts ? (
     <Grid id="articles" container alignContent="stretch" direction="column" justify="center" spacing={0}>
