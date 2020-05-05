@@ -70,18 +70,6 @@
       "endDate": "2017-08-25",
       "summary": "緊急救護、救災救助、為民服務等",
       "highlights": []
-    },
-    {
-      "company": "國立臺灣大學資訊管理系",
-      "position": "台大藝術季專案負責人",
-      "startDate": "2015-10-25",
-      "endDate": "2016-06-01",
-      "summary": "Neural Art 藝術創作專案「交疊時間」負責人。使用當年的熱門的Neural Art library，揀選各種人權與抗暴歷史紀錄影像、近代與現代的藝術作品，融合近代畫風與當代攝影作品產生新的Neural Art影像創作",
-      "highlights": [
-        "使用當年的熱門的Neural Art library",
-        "結合各種人權與抗暴歷史紀錄影像與近代與現代的藝術作品",
-        "融合近代畫風與當代攝影作品產生新的Neural Art影像創作"
-      ]
     }
   ],
   "education": [
@@ -93,9 +81,7 @@
       "endDate": "2016-06-30"
     }
   ],
-  "awards": [
-
-  ],
+  "awards": [],
   "publications": [],
   "skills": [
     {
@@ -103,7 +89,6 @@
       "level": "familiar",
       "keywords": [
         "JavaScript",
-        "Python",
         "R",
         "C/C++",
         "Shell"
@@ -124,7 +109,6 @@
       "keywords": [
         "MySQL",
         "PostgreSQL",
-        "MSSQL",
         "MongoDB",
         "Redis"
       ]
@@ -158,7 +142,8 @@
       "keywords": [
         "HAProxy",
         "Docker",
-        "Traefik"
+        "Traefik",
+        "Nginx"
       ]
     }
   ],

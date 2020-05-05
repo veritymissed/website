@@ -30,14 +30,15 @@ function Summary() {
   const classes = useStyles();
   const resume = useResume();
   const summary = resume.basics.summary;
-
+  // const resumeHref = `process.env.PUBLIC_URL}/resume.pdf`
+  const resumeHref = "https://www.cakeresume.com/s--yuG3BadaiW_d-uVpsDV_3A--/veritymissed"
   return (
     <div className={classes.root}>
       <Button
         variant="outlined"
         className={classes.button}
         component="a"
-        href={`${process.env.PUBLIC_URL}/resume.pdf`}
+        href={resumeHref}
         target="_blank"
         rel="noopener noreferrer"
         color="inherit"
