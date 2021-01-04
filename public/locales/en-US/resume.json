@@ -39,11 +39,20 @@
   },
   "work": [
     {
+      "company": "Yoger Technology Co., Ltd.",
+      "position": "Backend Software Engineer",
+      "website": "https://www.taptot.com/",
+      "startDate": "2020-07-01",
+      "summary": "Owner for Taptot App API server projects, focused on back-end design, database management, API server design. I did the migration project of data from Google Firebase to PostgresDB as my first project in Yoger.",
+      "highlights": []
+    },
+    {
       "company": "Wavenet Technology Co., Ltd.",
       "position": "Fullstack Software Engineer",
       "website": "https://www.wavenet.com.tw",
       "startDate": "2019-05-03",
-      "summary": "Owner for projects, provided technical direction to the team members, worked closely with the Software Engineers and Product Managers, planned software staffing and product development",
+      "endDate": "2020-02-29",
+      "summary": "Owner for projects, focused on front-end/ back-end design for the project. I have something to do with Google/FB marketing API in these porjects in Wavenet",
       "highlights": []
     },
     {

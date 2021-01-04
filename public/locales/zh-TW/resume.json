@@ -39,10 +39,23 @@
   },
   "work": [
     {
+      "company": "優格資訊股份有限公司",
+      "position": "後端工程師",
+      "website": "https://www.taptot.com/",
+      "startDate": "2020-07-01",
+      "summary": "軟體專案負責人，主要著重後端功能開發。Taptot 拿點App所用API server版本更新維護、Google Firebase/Firestore 搬遷資料到Postgres DB的規劃與執行。",
+      "highlights": [
+        "App所用API server版本更新、",
+        "從 Google Firebase/Firestore 搬遷資料到Postgres DB的規劃與執行",
+        ""
+      ]
+    },
+    {
       "company": "潮網科技股份有限公司",
       "position": "全端工程師",
       "website": "https://www.wavenet.com.tw",
       "startDate": "2019-05-03",
+      "endDate": "2020-02-29",
       "summary": "軟體專案負責人，主要著重前後端功能開發。這段工作經歷重心在Facebook/Google 行銷API的串接與資料的整合。負責內部行銷部門使用的報表系統與外部客戶使用的報表系統。",
       "highlights": [
         "與PM溝通協調媒體部門需求，設計和開發公司內部的廣告報表系統所需功能。讓內部同仁能針對不同的廣告活動、層級以及類型客製化報表。",
